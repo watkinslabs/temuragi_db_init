@@ -3,8 +3,7 @@ set -e
 
 echo "Starting database initialization..."
 
-echo "Creating database: temuragi"
-python -m app.cli database create temuragi
+#"Postgress creates the database and the user"
 
 echo "Creating tables..."
 python -m app.cli database create-tables

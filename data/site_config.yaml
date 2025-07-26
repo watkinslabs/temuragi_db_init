@@ -21,11 +21,11 @@ SiteConfig:
     description: The temuragi default website
     url: https://temuragi.watkinslabs.com/v2
     admin_email: user@example.com
-    logo_desktop_dark: https://temuragi.watkinslabs.com//static/images/logo.svg
-    logo_mobile_dark: https://temuragi.watkinslabs.com//static/images/logo.svg
-    logo_desktop: https://temuragi.watkinslabs.com//static/images/logo.svg
-    logo_mobile: https://temuragi.watkinslabs.com//static/images/logo.svg
-    favicon: https://temuragi.watkinslabs.com//static/favicon.png
+    logo_desktop_dark: https://temuragi.watkinslabs.com/images/logo.svg
+    logo_mobile_dark: https://temuragi.watkinslabs.com/images/logo.svg
+    logo_desktop: https://temuragi.watkinslabs.com/images/logo.svg
+    logo_mobile: https://temuragi.watkinslabs.com/images/logo.svg
+    favicon: https://temuragi.watkinslabs.com/favicon.png
     footer_text: Copyright Watkins Labs 2025
     footer_links: 
     social_links: 
@@ -34,6 +34,6 @@ SiteConfig:
     maintenance_mode: true
     maintenance_message: Working on the things and the stuffs...
     allow_registration: true
-    require_email_verification: 
+    require_email_verification: false
     is_active: true
     

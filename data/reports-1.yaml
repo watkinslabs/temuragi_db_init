@@ -1,0 +1,41 @@
+Report:
+  meta:
+    tablename: reports
+    schema: public
+  data:
+  - name: Manage Module
+    label: Manage Module
+    query: |-
+      SELECT
+          t.name,
+          t.label,
+          t.id,
+          t.is_active,
+          t.created_at,
+          t.updated_at
+      FROM data_types t
+      WHERE 1=1
+      ORDER BY t.name ASC
+    description: Report data represention
+    model_id: 00000000-0000-0000-0000-000000000003
+    connection_id: 2eb2d272-f35f-421d-a06b-2a319b4e1e1e
+    category: Model Reports
+    tags: '[''DataType'', ''data_types'']'
+    is_wide: false
+    is_ajax: true
+    is_auto_run: false
+    is_searchable: true
+    is_public: false
+    is_published: false
+    is_download_csv: true
+    is_download_xlsx: true
+    is_system: true
+    is_model: true
+    is_auto_refresh: false
+    permissions_created: true
+    options: {}
+    version: 1
+    id: 24edc7a2-dead-435e-b9cf-4d5dc3040611
+    is_active: true
+    created_at: '2025-07-15T06:58:12.498875-04:00'
+    updated_at: '2025-07-15T06:58:12.521545-04:00'    
